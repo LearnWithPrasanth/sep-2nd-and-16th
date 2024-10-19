@@ -11,12 +11,52 @@
         <input type="text" name="name"> 
         <br>
         <label for="">Email</label>
-        <input type="text" name="email">
+        <input type="email" name="email">
         <br>
         <label for="">Mobile</label>
         <input type="text" name="mobile">
         <br>
-        <input type="submit">
+        <label for="">Date of Birth</label>
+        <input type="date" name="dob" >
+        <br>
+        <label for="">Time</label>
+        <input type="time" name="time">
+        <br>
+        <label>Gender</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label> 
+        <br>
+        <label>Skills</label>
+        <input type="checkbox" name="skill" id="html" value="html">
+        <label for="html">HTML</label>
+        <input type="checkbox" name="skill" id="css" value="css">
+        <label for="css">CSS</label>
+        <input type="checkbox" name="skill" id="mysql" value="mysql">
+        <label for="mysql">MySQL</label>
+        <br>
+        <label for="state">State</label>
+        <select name="state" id="state">
+            <option value="">Select</option>
+            <option value="karnataka">Karnataka</option>
+            <option value="ap">Andra Pradesh</option>
+            <option value="telangana">Telangana</option>
+        </select>
+        <br>
+        <label>State</label>
+        <input type="text" name="state" list="state-options">
+        <datalist name="state" id="state-options">
+            <option value="">Select</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Andra Pradesh">Andra Pradesh</option>
+            <option value="Telangana">Telangana</option>
+        </datalist>
+        <br>
+        <input type="hidden" name="secret" value="dsjbfjbjndsknkfdjgkhgdfhkg&^#&$JEH">
+        <br>
+        <input type="reset">
+        <input type="submit" value="Send">
     </form>
 </body>
 </html>
