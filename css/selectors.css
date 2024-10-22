@@ -1,0 +1,28 @@
+/* Universal Selector */
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+/* Element Selector */
+h1 {
+    color: red;
+}
+
+/* Class Selector */
+.greencolor {
+    color: green;
+}
+
+.bigfont {
+    font-size: 30px;
+}
+
+/* ID Selector */
+/* #newcolor {
+    color: brown;
+} */
+
+/* attribute selector */
+[id = "heading"] {
+    color: purple;
+}
