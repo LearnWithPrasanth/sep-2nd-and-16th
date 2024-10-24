@@ -1,0 +1,17 @@
+.container p{
+    color:blue;
+}
+
+.container > .child{
+    color:green;
+}
+
+h2 +p {
+    color:red;
+}
+div + p{
+    color:purple;
+}
+.container span{
+    background-color: yellow;
+}

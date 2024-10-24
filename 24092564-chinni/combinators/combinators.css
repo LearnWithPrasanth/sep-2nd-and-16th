@@ -1,0 +1,19 @@
+.container p{
+    color:blue;
+}
+
+.container > p.child {
+    color:green;
+}
+
+.sibling-example h2 + p.adjacent {
+    color:red;
+}
+
+.far-sibling-example ~ p.end {
+    color:purple;
+}
+
+.container span{
+    background-color:yellow;
+}

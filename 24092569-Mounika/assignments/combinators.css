@@ -1,0 +1,22 @@
+/* decendant selector */
+.container p{
+    color: blue;
+}
+
+/* child selector */
+.container>.child{
+    color: green;
+}
+
+/* adjacent sibling selector */
+h2 + p{
+    color: red;
+}
+/* general sibling selector */
+div ~ p{
+    color: purple;
+}
+
+.container span{
+    background-color: yellow;
+}

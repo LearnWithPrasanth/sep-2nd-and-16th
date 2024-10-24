@@ -1,0 +1,24 @@
+.box{
+    width: 300px;
+    height: 150px;
+}
+.first-box{
+    padding: 20px;
+}
+.second-box{
+    border:5px solid black;
+}
+.third-box{
+    margin:30px;
+}
+box-sizing {
+    box-sizing:border-box;
+}
+.third-box{
+    border-radius:15px;
+}
+.box{
+    padding:10px,20px,15px,5px;
+    border-radius:10px,0,20px,15px;
+    margin:10px,20px,15px,5px;
+}
