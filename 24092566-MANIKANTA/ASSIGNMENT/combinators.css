@@ -1,0 +1,15 @@
+.container p{
+    color:blue;
+}
+.container >.child{
+    color:green;
+}
+.sibling-example h2 + p{
+    color:red
+} 
+.far-sibling-example ~p{
+    color:purple
+}
+.container span {
+    background-color: yellow;
+}
