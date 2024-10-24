@@ -1,0 +1,35 @@
+/* Desendant Combinator */
+
+/* .navbar a{
+    color: red;
+} */
+
+/* Child Combinator */
+/* .navbar > a{
+    color: red;
+} */
+
+/* Adjacent Sibling Combinator */
+/* h1 + p {
+    color: brown;
+} */
+
+/* Far Sibling Combinator */
+/* h1 ~ p {
+    color: brown;
+} */
+
+
+/* body.darkmode {
+    color: white;
+    background-color: black;
+} */
+
+
+a:hover {
+    color: red;
+}
+
+li:nth-child(odd) {
+    color: violet;
+}
