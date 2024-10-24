@@ -1,0 +1,18 @@
+/* descendant selector*/
+.container p{
+    color:blue;
+}
+/*child selector*/
+   .container > .child{
+    color: green;
+   }
+/*Adjacent sibling selector*/
+
+.sibling-example h2 + p.adjacent{
+    color:purple;
+}
+/*challenge task*/
+.container span{
+    background:yellow;
+}
+
