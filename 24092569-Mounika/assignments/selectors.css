@@ -1,0 +1,25 @@
+/* Elements selectors */
+
+h1 {
+    color: blue;
+}
+
+/* Elements selectors */
+p {
+    color: green;
+}
+
+/* class selectors */
+.highlight{
+    color:orange;
+}
+
+/* id selector */
+#unique{
+    color:purple;
+}
+
+/* grouping element selectors */
+h1,a{
+    color:red;
+}
