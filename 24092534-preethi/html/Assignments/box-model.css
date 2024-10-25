@@ -21,9 +21,9 @@ background-color: pink;
 /* margin */
 .third-box{
     border-radius: 15px;
-    margin: 30px;
+    margin-top: 10px;
     border: black solid 5px; 
-    padding: 20px 0 15px 5px;
+    padding: 10px 0 20px 5px;
     background-color: aquamarine;  
 }
 /*box sizing*/
