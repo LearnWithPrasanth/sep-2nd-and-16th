@@ -1,0 +1,20 @@
+/*descendant selectors*/
+.container p{
+    color: blue;
+}
+/*.child sector*/
+.container>p.child{
+    color: green;
+}
+/*adjacent sibling sector*/
+.sibling-example h2+p.adjacent{
+    color:red;
+}
+/*general sibling selector*/
+.far-sibling-example~p.end{
+    color:purple;
+}
+/*class selector*/
+.container span{
+    background-color: yellow;
+}

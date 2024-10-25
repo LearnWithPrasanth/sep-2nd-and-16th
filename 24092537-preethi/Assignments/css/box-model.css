@@ -1,0 +1,33 @@
+/*content area*/
+.box{
+    width: 300px;
+    height: 150px;
+}
+/*padding*/
+.first-box{
+    padding: 20px;
+    border:dashed black;
+    background-color:aquamarine;
+    margin:20px;
+    border-radius:15px 10px;
+}
+/*Border*/
+.second-box{
+    border:5px solid black;
+    border-radius: 10px 0 20px 5px;
+    padding: 10px 20px 10px;
+    background-color:blanchedalmond;
+    margin: 10px;
+};
+/*margin*/
+.third-box{
+    border-radius: 15px;
+    margin: 30px;
+    border: 10px solid;
+    background-color: brown;
+    padding: 10px 0 20px; 
+}
+/*box sizing*/
+*{
+    box-sizing: border-box;
+}
