@@ -1,0 +1,51 @@
+/* 
+Positions
+1. Static 
+2. Fixed
+3. Sticky
+4. Relative
+5. Absolute
+*/
+
+
+.fixed {
+    background-color: antiquewhite;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+.sticky {
+    background-color: burlywood;
+    position: sticky;
+    top: 10px;
+    /* z-index: 1000; */
+}
+
+.absolute {
+    background-color: aquamarine;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.relative {
+    height: 400px;
+    border: 1px solid;
+    position: relative;
+}
+
+
+.absolute1 {
+    background-color: yellow;
+    position: absolute;
+    bottom: 0;
+}
+.absolute2 {
+    background-color: bisque;
+    position: absolute;
+}
+.absolute3 {
+    background-color: chartreuse;
+    position: absolute;
+}
