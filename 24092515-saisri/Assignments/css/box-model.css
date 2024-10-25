@@ -1,0 +1,36 @@
+/* content area */
+.box{
+    height: 150px;
+    width: 300px;
+}
+/* padding */
+.first-box{
+    padding: 10px;
+    border:5px rgb(191, 232, 10) dashed ;
+    background-color: darkolivegreen;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+/* border */
+.second-box{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px 0 10px;
+    border-color: blue;
+    background-color: bisque;
+}
+/* margin */
+.third-box{
+    margin: 30px;
+    border: 10px red dotted;
+    background-color: darkgrey;
+}
+/* box-sizing */
+*{
+    box-sizing: border-box;
+}
+/* border radius */
+.third-box{
+    border-radius: 15px;
+}
+/* padding,margin,border-radius */
