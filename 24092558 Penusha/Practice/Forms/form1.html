@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Student Application Form</title>
+        <link rel="stylesheet" href="form1.css"
+    </head>
+    <body>
+        <form>
+            <img src="https://biospectrum.org/wp-content/uploads/2019/03/registration-banner.png" height="350" width="1500">
+            <marquee   direction="scroll"   >Welcome to student Registration Portal</marquee>
+            <fieldset>
+                
+                <h1>Student Registration Form</h1>
+                <h3>Personal Details</h3>
+            <label>First Name</label>
+            <input type="text" name="fname" placeholder="Enter your First Name" required><br><br>
+            <label>Last Name</label>
+            <input type="text" name="lname" placeholder="Enter your lname"><br><br>
+            <label>Mobile N.o</label>
+            <input type="number" name="phoneno" maxlength="10" placeholder="Enter your mobile no" required><br><br>
+            <label>Email</label>
+            <input type="email" name="email" placeholder="Enter your Email" required><br><br>
+            <label>Date Of Birth</label>
+            <input type="date" name="date" required placeholder="Enter DOB"><br><br>
+            <label>Password  </label>
+            <input type="password" name="pass" minlength="8" pattern="^(?=.*\d)(?=.*[a-zA-Z])(?=.*[^a-zA-Z0-9])\S{8,}$" 
+            title="Password must contain at least one number, 
+                    one alphabet, one symbol, and be at 
+                    least 8 characters long" placeholder="Enter your password" required><br><br>
+            <label>Gender</label>
+            <select required>
+                <option>Male</option>
+                <option>Female</option>
+            </select> 
+            <h3>Address</h3>
+            <label>Flat no</label>
+             <input type="text" name="flatno" placeholder="Enter your Flat no" required><br><br>
+             <label> state</label>
+            <select required>
+                <option>Select Your state</option>
+                <option>Karnataka</option>
+                <option>Andhra Pradesh</option>
+                <option>Tamil Nadu</option>
+                <option>Kerala</option>
+                <option>Telangana</option>
+            </select><br><br>
+            <label>City</label>
+            <select required> 
+            <option>Select your city</option> 
+            <option>Chittoor</option>
+            <option>Tirupati</option>
+            <option>Guntur</option>
+            <option>Anantapur</option>
+            <option>Kadapa</option>
+            <option>Kurnool</option>
+        </select>
+        <h3>Education Details</h3>
+        <h4>10th class:</h4>
+        <label>Marks</label>
+        <input type="number" name="school" required placeholder="Enter your 10th marks"><br><br>
+        <label>Location</label>
+        <input type="text" name="location" required placeholder="Enter your school location"> 
+        <h4>12th class:</h4>
+        <label>Marks</label>
+        <input type="number" name="inter" required placeholder="Enter your 12th marks"><br><br>
+        <label>Location</label>
+        <input type="text" name="location" required placeholder="Enter your 12th location"> 
+        <h4>UG:</h4>
+        <label>Marks</label>
+        <input type="number" name="inter" required placeholder="Enter your UG marks"><br><br>
+        <label>Location</label>
+        <input type="text" name="location" required placeholder="Enter your UG location"><br><br>
+        <input type="submit">
+              
+            </fieldset>
+             
+        </form>
+    </body>
+</html>
