@@ -1,0 +1,85 @@
+.back{
+    width: 100%;
+    height: 250px;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(166, 206, 231);
+}
+.My-Profile{
+    height: 430px;
+    width: 600px;  
+    padding: 30px; 
+    margin-right: 500px;  
+    margin-left: 380px; 
+    margin-top: -9%;
+    border-radius: 49px;
+    background: #e0e0e0;
+    box-shadow:  5px 5px 10px #cccccc,
+                 -5px -5px 10px #f4f4f4;
+}
+.My-Profile .circle{
+    
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border-radius: 174px;
+    background: #e0e0e0;
+    box-shadow:  5px 5px 11px #d7d7d7,
+             -5px -5px 11px #e9e9e9;
+    margin-top: -25%;
+    margin-left:auto;
+    margin-right: auto;
+}  
+.circle img{
+    border-radius:50%;
+} 
+ 
+.My-Profile .Message{
+    text-align:end;
+    margin-top: -23px;
+
+}
+.content h1,p{
+   text-align:center;
+
+}
+.content p{
+    margin-top:-9px;
+}
+.profile-info{
+    font-size:large;
+}
+
+.My-Profile .profile-status{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap:35px;
+}
+.My-Profile .heading{
+    justify-content: space-between;
+    color:rgb(50, 164, 235);
+    display: flex;
+
+}
+
+/* .My-Profile .icon{
+    justify-content: space-between;
+    color:lightskyblue;
+} */
+
+
+.My-Profile button{
+   margin-left:250px; 
+   width: 100px;
+   height: 50px;
+   border-radius: 30px;
+   background-color :rgba(251,121,121,255);
+   border: 1px rgb(92, 127, 170) solid;
+}
+
+button:hover {
+    background-color:rgb(109, 181, 225);
+} 
+
+

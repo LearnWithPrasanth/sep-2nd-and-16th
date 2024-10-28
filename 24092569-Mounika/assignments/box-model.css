@@ -1,0 +1,37 @@
+.box{ 
+    width: 300px;
+    height: 150px;
+}
+.first-box{
+    padding:20px;
+    
+    
+
+}
+.second-box{
+    border: 5px solid black;
+    
+}
+.third-box{
+    margin: 30px;
+    
+}
+/* div{
+    box-sizing: border-box;
+} */
+
+/* *{
+    box-sizing: border-box;
+} */
+
+.third-box{
+    border-radius: 15px;
+}
+.mounika{
+    width: 200px;
+    height: 200px;
+    border:5px solid green;
+    padding: 10px 20px 15px 5px;
+    margin:10px 20px;
+    border-radius: 10px 0 20px 5px;
+}
