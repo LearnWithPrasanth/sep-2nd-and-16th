@@ -1,0 +1,21 @@
+/* heading */
+h1{
+    color: blue;
+}
+/* paragraph */
+p{
+    color: green;
+}
+/* class selectors */
+.highlight{
+    color: orange;
+}
+/* id  selectors */
+#unique{
+    color:purple;
+}
+/* grouping selectors */
+h1,a{
+    color: red;
+}
+

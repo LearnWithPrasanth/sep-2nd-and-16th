@@ -1,0 +1,74 @@
+<html>
+
+<head>
+    <title>Css Introduction</title>
+    <style>
+        p{
+            color: blue;
+        }
+        table{
+            background-image: url("https://static.vecteezy.com/system/resources/thumbnails/030/589/800/small_2x/vintage-bicycle-illustration-free-space-for-text-ai-generative-photo.jpg");
+        background-repeat:no-repeat;
+        background-size: cover;
+        justify-content: center;
+        opacity:0.8;
+        }
+        body{
+            background:linear-gradient(pink,lightgreen,yellow);
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="color:brown" align="center">Cascading Style Sheets</h1>
+    <p align="center">Casdading style sheets is used to style the web sites and web pages</p>
+    <table align="center" border="2"> 
+        <form>
+            <tr>
+                <th><label for="">Full Name</label></th>
+                <td><input type="text" name="name"></td>
+            </tr>
+            <tr>
+                <th><label for="">Surname</label></th>
+                <td><input type="text" name="name"></td>
+            </tr>
+            <tr>
+                <th><label for="">Email</label></th>
+                <td><input type="email" name="email"></td>
+            </tr>
+            <tr>
+                <th><label for=""> Mobile</label></th>
+                <td><input type="number" name="mobile"></td>
+            </tr>
+            <tr>
+                <th><label for="">Address</label></th>
+                <td><textarea name="address"></textarea></td>
+            </tr>
+            <tr>
+                <th><label for="">Gender</label></th>
+                <td>
+                    <input type="radio" name="gender" id="male" value="male">Male<br>
+                    <input type="radio" name="gender" id="female" value="female">Female<br>
+                </td>
+            </tr>
+            <tr>
+                <th><label for="">Skills</label></th>
+                <td rowspan="6">
+                    <input type="checkbox" name="skills" id="HTML" value="HTML">
+                    <label for="HTML">HTML</label>
+                    <br>
+                    <input type="checkbox" name="skills" id="CSS" value="CSS">
+                    <label for="CSS">CSS</label><br>
+                    <input type="checkbox" name="skills" id="PYTHON" value="PYTHON">
+                    <label for="PYTHON">PYTHON</label><br>
+                    <input type="checkbox" name="skills" id="SQL" value="SQL">
+                    <label for="PYTHON">SQL</label><br>
+                    <input type="checkbox" name="skills" id="C" value="C">
+                    <label for="C">C</label><br>
+                </td> 
+            </tr>
+        </form>
+    </table>
+</body>
+
+</html>
