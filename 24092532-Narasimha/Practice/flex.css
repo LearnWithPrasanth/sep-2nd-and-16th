@@ -1,0 +1,45 @@
+.flex-item{
+    border: 2px solid pink;
+    margin: 20px; 
+        }
+.flex-container{
+    border: 2px solid green;
+    height: 500px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:first baseline;
+    flex-wrap: wrap;
+}
+.flex-item5{
+    align-self:flex-start;
+    flex-shrink: 1px;
+    flex-grow: 1;
+    
+}
+.flex-item4{
+    
+    flex-shrink: 1px;
+    flex-grow: 2;
+    order: 1;
+}
+
+.roundimage{
+    border: solid green;
+    border-radius: 50px;
+    flex: display;
+    height: 100px;
+    width: 100px;
+}
+.prabhaspic{
+    border: solid;
+}
+.shadow{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: #e0e0e0;
+    box-shadow: inset 25px 25px 50px #6e6e6e,
+                inset -25px -25px 50px #ffffff;
+}
+

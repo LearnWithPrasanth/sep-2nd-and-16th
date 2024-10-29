@@ -1,0 +1,15 @@
+div p
+{
+color:blue;
+}
+.container > .child {
+    color: green;
+}
+.sibling-example h2 + .adjacent{
+    color:red;
+}
+.far-sibling-example ~ .end{
+
+color:purple;
+}
+
