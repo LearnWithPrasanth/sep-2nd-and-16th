@@ -1,0 +1,18 @@
+h1 {
+    color: blue;
+}
+p {
+    color: green;
+}
+
+.highlight{
+    color: orange;
+}
+
+#unique{
+    color: purple;
+}
+
+a,h1 {
+    color: red;
+}
