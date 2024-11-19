@@ -1,0 +1,19 @@
+div p {
+    color: blue;
+   }
+    
+   div > p {
+       color: green;
+   }
+    
+   h2+p {
+       color: red;
+   }
+   
+   div~p{
+       color: purple;
+   }
+   
+   span{
+        background-color: yellow;
+   }
