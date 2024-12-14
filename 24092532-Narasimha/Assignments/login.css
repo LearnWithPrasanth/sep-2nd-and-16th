@@ -1,0 +1,33 @@
+.shadow{
+    height:600px;
+    width:550px;
+    margin-top:200px;
+     
+    text-align:center;
+    border-radius: 23px;
+    background: #cddd55;
+    box-shadow:  35px 35px 100px #aebc48,
+             -35px -35px 100px #ecfe62;
+}
+html,body{
+    display:flex;
+    justify-content:center;
+    
+}
+
+.stylestext{
+    font-size:50px;
+    text-decoration:underline;
+}
+.input_box{
+    display:flex;
+    padding:15px;
+    justify-align:center;
+    width:450px;
+    height:25px;
+    margin:6px;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow:  35px 35px 70px #bebebe,
+             -35px -35px 70px #ffffff;
+}
