@@ -1,0 +1,18 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-columns: repeat (3,300px);
+    justify-self: center;
+    align-content: center;
+    align-items: center;
+    gap: 10px;
+    grid-template-areas: 
+    "header header header"
+    "sidebar maincontent maincontent"
+    "footer footer footer";
+}
+
+ .grid-item-1{
+    align-self: center;
+    grid-area: footer;
+}

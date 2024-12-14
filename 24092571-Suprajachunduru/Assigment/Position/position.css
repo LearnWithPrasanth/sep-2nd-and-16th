@@ -1,0 +1,36 @@
+.fixed{
+    background-color: cadetblue;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+.absolute{
+    background-color: aqua;
+    position: absolute;
+    bottom: 10px;
+    right: 20x;
+}
+
+.relative{
+    background-color: blue;
+    position: relative;
+    height: 300px;
+    border: 2px solid;
+}
+
+.absolute1{
+    background-color: aquamarine;
+    position:absolute;
+    bottom: 0;
+}
+
+.absolute12{
+    background-color:brown;
+    position:absolute;
+}
+
+.absolute3{
+    background-color:coral;
+    position:absolute;
+}
