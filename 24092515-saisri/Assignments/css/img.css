@@ -1,0 +1,48 @@
+.image{
+    position: absolute;
+  }
+  
+  img {
+    width: 75%;
+    height: 75%;
+  }
+  .contact {
+    position: absolute;
+    color: rgb(252, 252, 252);
+    background-color:green;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .message{
+    position:absolute;
+    color: rgb(248, 243, 243);
+    background-color: goldenrod;
+    top: 10px;
+    right: 25%;
+    padding-right: 5px;
+  }
+  
+  .instagram {
+    position:absolute;
+    color: rgb(243, 240, 240);
+    background-color: goldenrod;
+    bottom: 10px;
+    left: 10px;
+  }
+  
+  .telegram {
+    position: absolute;
+    color: rgb(251, 249, 249);
+    background-color:forestgreen;
+    bottom: 10px;
+    right: 25%;
+    padding-right: 5px;
+  }
+.home{
+    position: absolute;
+    color: rgb(110, 7, 235);
+    background-color: rgb(223, 153, 194);
+    top: 50%;
+    left: 37%;
+}
